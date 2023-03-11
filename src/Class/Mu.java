@@ -12,12 +12,12 @@ public class Mu extends Character implements Do, See, Be{
 
     @Override
     public String toDo() {
-        return "стоял";
+        return "оказались";
     }
 
     @Override
     public String see() {
-        return "таращился на ";
+        return "таращилась на ";
     }
 
     @Override
