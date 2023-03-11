@@ -1,8 +1,8 @@
 
 
-import Class.Snusmumrik;
-import Class.Mu;
-import Class.EachOther;
+import Classes.Snusmumrik;
+import Classes.Mu;
+import Classes.EachOther;
 
 public class Main {
 

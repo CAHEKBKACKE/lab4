@@ -1,4 +1,4 @@
-package Class;
+package Classes;
 
 import Abstract.Character;
 import Interface.Do;
