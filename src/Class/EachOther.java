@@ -1,4 +1,4 @@
-package Classes;
+package Class;
 
 import Abstract.Character;
 import Interface.See;

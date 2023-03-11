@@ -1,8 +1,4 @@
-
-
-import Classes.Snusmumrik;
-import Classes.Mu;
-import Classes.EachOther;
+import Class.*;
 
 public class Main {
 
@@ -17,7 +13,10 @@ public class Main {
         EachOther eachOther = new EachOther();
         eachOther.setName("друг на друга");
 
-        System.out.println(mu + " и " + snusmumrik + " " + mu.toDo() + " " + snusmumrik.circumstance(2) + " " + snusmumrik.circumstance(3));
+        MumiTrolls mumiTrolls = new MumiTrolls();
+        mumiTrolls.setName("семейство муми-троллей");
+
+        System.out.println(snusmumrik + " и " + mumiTrolls + " " + mumiTrolls.toDo() + " " + snusmumrik.circumstance(3) + " " + snusmumrik.circumstance(2));
         System.out.println(snusmumrik + " " + snusmumrik.toDo() + " " + snusmumrik.circumstance(1));
         System.out.println(snusmumrik.circumstance(4)+ " " + snusmumrik + " " + snusmumrik.toDo() + " и "  + snusmumrik.see() + " " + mu);
         System.out.println(mu + " " + mu.toBe());

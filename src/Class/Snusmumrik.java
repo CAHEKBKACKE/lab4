@@ -1,10 +1,10 @@
-package Classes;
+package Class;
 
 import Abstract.Character;
 import Interface.Do;
 import Interface.See;
 
-public class Snusmumrik extends Character implements Do, See{
+public class Snusmumrik extends Character implements Do, See {
     Circumstances current;
     @Override
     public String toDo() {

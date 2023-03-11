@@ -1,13 +1,11 @@
-package Classes;
-
-
+package Class;
 
 import Abstract.Character;
-import Interface.Do;
 import Interface.Be;
+import Interface.Do;
 import Interface.See;
 
-public class Mu extends Character implements Do, See, Be{
+public class Mu extends Character implements Do, See, Be {
 
 
     @Override

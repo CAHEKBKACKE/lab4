@@ -1,4 +1,4 @@
-package Classes;
+package Class;
 
 public enum Circumstances {
         SHORE,
