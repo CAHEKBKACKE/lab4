@@ -1,7 +1,7 @@
 package Class;
 
-import Interface.Do;
 import Abstract.Character;
+import Interface.Do;
 
 public class MumiTrolls extends Character implements Do {
 

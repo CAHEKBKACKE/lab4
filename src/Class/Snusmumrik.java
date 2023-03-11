@@ -37,4 +37,9 @@ public class Snusmumrik extends Character implements Do, See {
 
         return "";
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        return true;
+    }
 }

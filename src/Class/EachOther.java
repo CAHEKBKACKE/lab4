@@ -9,4 +9,9 @@ public class EachOther extends Character implements See {
     public String see() {
         return "смотрели ";
     }
+
+    @Override
+    public int hashCode() {
+        return 3;
+    }
 }
