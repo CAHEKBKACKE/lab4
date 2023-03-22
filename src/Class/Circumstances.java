@@ -4,5 +4,5 @@ public enum Circumstances {
         SHORE,
         EVENING,
         BAY,
-        HAT
+        FIELDS
 }
