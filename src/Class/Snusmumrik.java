@@ -3,7 +3,7 @@ package Class;
 import Abstract.Character;
 import Interface.*;
 
-public class Snusmumrik extends Character implements Do, See, Go, Know, Think, Breath, Show {
+public class Snusmumrik extends Character implements Do, See, Go, Know, Think, Show, Breath {
 
     private class Hat{
         public String inHat(){
@@ -82,13 +82,12 @@ public class Snusmumrik extends Character implements Do, See, Go, Know, Think, B
     }
 
     @Override
-    public String breath() {
-        return "вздохнул";
-    }
-
-    @Override
     public String show() {
         return "показал на";
+    }
+    @Override
+    public String breath() {
+        return "вздохнул";
     }
 
 

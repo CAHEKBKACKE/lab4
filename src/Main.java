@@ -1,5 +1,6 @@
 import Class.*;
 import Exceptions.IsEndException;
+import Interface.Breath;
 
 public class Main {
 
@@ -26,7 +27,7 @@ public class Main {
 
         System.out.println(snusmumrik + " и " + mumiTrolls + " " + mumiTrolls.toDo() + " " + snusmumrik.circumstance(3) + " " + snusmumrik.circumstance(2));
         System.out.println(snusmumrik + " " + snusmumrik.toDo() + " " + snusmumrik.circumstance(1));
-        System.out.println(snusmumrik.circumstance(4)+ " " + snusmumrik + " " + snusmumrik.toDo() + " и "  + snusmumrik.see() + " " + mu);
+        System.out.println(snusmumrik + " " + snusmumrik.toDo() + " и "  + snusmumrik.see() + " " + mu);
         System.out.println(mu + " " + mu.toBe());
         System.out.println(snusmumrik + " " + snusmumrik.breath());
         System.out.println(snusmumrik + " " + snusmumrik.show() + " " + pot + " " + pot.content());
