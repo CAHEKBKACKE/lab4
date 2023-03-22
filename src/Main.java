@@ -1,3 +1,4 @@
+import Abstract.Character;
 import Class.*;
 import Exceptions.IsEndException;
 import Interface.Breath;
@@ -7,6 +8,13 @@ public class Main {
     public static void main(String[] args) {
 
         Snusmumrik snusmumrik = new Snusmumrik("Снусмумрик");
+        class Pan extends Character {
+            public Pan(String name){
+                setName(name);
+            }
+        }
+
+        Pan pan = new Pan("кастрюлю");
 
         Mu mu = new Mu("Мю");
 
@@ -17,6 +25,7 @@ public class Main {
         MumiTrolls mumiTrolls = new MumiTrolls("семейство муми-троллей");
 
         Pot pot = new Pot("кастрюля");
+
 
         They.Friends friends = new They.Friends("друзьями"){
             @Override
@@ -30,8 +39,7 @@ public class Main {
         System.out.println(snusmumrik + " " + snusmumrik.toDo() + " и "  + snusmumrik.see() + " " + mu);
         System.out.println(mu + " " + mu.toBe());
         System.out.println(snusmumrik + " " + snusmumrik.breath());
-        System.out.println(snusmumrik + " " + snusmumrik.show() + " " + pot + " " + pot.content());
-        System.out.println(pot + " " + pot.content() +  " " + pot.sit());
+        System.out.println(snusmumrik + " " + snusmumrik.show() + " " + pan + " " + pot.content() + " и " + pan + " " + pot.content() +  " " + pot.sit());
         System.out.println(mu + " " + mu.laugh());
         System.out.println(mu +  " " + mu.swallow() +  " " + mu.food() +  " и " + mu +  " " + mu.eat() +  " " + mu.food());
         System.out.println(snusmumrik +  " " + snusmumrik.go() +  " " + snusmumrik.circumstance(4));
